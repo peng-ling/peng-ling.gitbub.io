@@ -1,0 +1,232 @@
+/*Framework*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.row_margin_20 {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.row_margin_15 {
+  width: 100%;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.jrow_header {
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jrow_content {
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/*Framework end*/
+
+/*Layout start*/
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 54px;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  text-align: right;
+}
+
+h4 {
+  margin: 0;
+  text-align: right;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+  color: #747704;
+  text-decoration: none;
+}
+
+.round {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.Portfolio_Box {
+  margin-right: 30px;
+}
+
+.Portfolio_Box:last-of-type {
+  margin-right: 0;
+}
+
+.Main_Pic {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.line {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+  height: 5px;
+  background-color: #bcbbbb;
+}
+
+.grey {
+  color: #bcbbbb;
+}
+
+.aright {
+  text-align: right;
+}
+
+.parent_align_mid {
+  display: table;
+}
+
+.parent_align_center {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.child_align_mid {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.child_align_center {
+  display: table-cell;
+  text-align: center;
+  max-width: 380px;
+  width: calc((100% - 60px) / 3);
+}
+
+.work {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*Layout end*/
+
+/*Smal device start*/
+
+@media screen and (max-width: 420px) {
+
+  .jrow_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Portfolio_Box {
+    margin-top: 20px;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .Portfolio_Box:first-of-type {
+    margin-top: 0;
+  }
+
+  a {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  .round {
+    width: 75px;
+    height: 75px;
+    border-radius: 37.5px;
+  }
+}
+
+/*Small device end*/
